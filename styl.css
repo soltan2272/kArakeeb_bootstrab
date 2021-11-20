@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+/*HOME PAGE BACKGROUND IMG*/
+body.home{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(4.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+
+
+/*CAST PAGE BACKGROUND IMG*/
+body.gal{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(3.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+
+
+/*ABOUT PAGE BACKGROUND IMG*/
+body.about{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(5.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+
+
+/*LEARN MORE PAGE  BACKGROUND IMG*/
+body.more{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(1.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+
+
+/*LOGO*/
+.logo img{
+	float: left;
+	width: 80px;
+	height: auto;
+}
+
+
+/*TILE-WELCOME*/
+.title{
+	position:absolute;
+	top:35%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+/*TILE-to the wizarding world of HP*/
+.title1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	transform: translate(-50%,-50%);
+}
+
+/*POTTERHEAD.COM*/
+.top-left{
+	position:absolute;
+	top:20px;
+	left:12%;
+	color:white;
+	font-size:25px;
+}
+
+
+/*NAVIGATION*/
+nav ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+}
+
+
+/*NAVIGATION*/
+nav ul li{
+	display: inline-block;
+}
+
+
+/*NAVIGATION*/
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:5px 20px;
+	border: 1px transparent;
+	transition:0.6s ease;
+}
+
+
+/*NAVIGATION*/
+nav ul li a:hover{
+	background-color:green;
+	color:#fff;
+}
+/*NAVIGATION*/
+nav ul li.active a{
+	background-color:green;
+	color:#fff;
+}
+
+
+/*NAVIGATION*/
+.title h1{
+	color:#fff;
+	font-size:75px;
+	text-align:center;
+}
+
+
+/*POTTERMORE BTN*/
+.button{
+	position:absolute;
+	top:85%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+
+/*POTTERMORE BTN*/
+.btn{
+	border:1px solid #fff;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration:none;
+	transition:0.6s ease;
+	text-align:center;
+}
+
+
+/*POTTERMORE BTN*/
+.btn:hover{
+	background-color:#DC143C;
+	color:#fff;
+}
+
+
+/*FIXED FOOTER*/
+.footer{
+  position: fixed;
+  bottom: 0;
+  background-color:black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size:10px;
+}
+
+
+/*LEARN MORE CONTENT*/
+section#main{
+	float:left;
+	width:85%;
+	margin-top:70px;
+	color:#fff;
+	font-size:15px;
+	text-align:justify;
+	text-shadow: 0 0 3px black;
+}
+
+
+/*LEARN MORE/CAST title*/
+.page-title{
+	position:absolute;
+	top:15%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size:55px;
+}
+
+/*Gallery img*/
+.gallery img{
+	float: center;
+	width:282px;
+	height: 500px;
+}
+
+/*LEARN MORE IMG1*/
+.profile img{
+	float: center;
+	width: 850px;
+	height: auto;
+}
+
+
+/*LEARN MORE IMG2*/
+.profile1 img{
+	float: center;
+	width: 850px;
+	height: auto;
